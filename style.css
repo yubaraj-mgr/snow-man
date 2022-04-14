@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: blue;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: blue;
+  position: relative;
+  top: 30px;
+}
+.topDiv {
+  height: 15px;
+  width: 40px;
+  background-color: black;
+}
+.secondDiv {
+  height: 10px;
+  width: 40px;
+  background-color: white;
+}
+
+.thirdDiv {
+  height: 20px;
+  width: 40px;
+  background-color: black;
+}
+
+.fourthDiv {
+  height: 5px;
+  width: 60px;
+  background-color: brown;
+}
+
+.fifthDiv {
+  height: 50px;
+  width: 70px;
+  background-color: white;
+  border-radius: 80px 80px 20px 20px;
+}
+
+.sixthDiv {
+  height: 10px;
+  width: 70px;
+  background-color: orange;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.seventhDiv {
+  height: 100px;
+  width: 100px;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 30% 30% 50% 50%;
+}
+
+.eye1 {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 150px;
+  right: 15px;
+}
+.eye2 {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 159px;
+  left: 15px;
+}
